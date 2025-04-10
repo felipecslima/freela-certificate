@@ -1,0 +1,98 @@
+table {
+  border-spacing: 0;
+  border-radius: 16px;
+  width: 100%;
+  border-collapse: collapse;
+  border: transparent;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12);
+}
+
+table tr th {
+  padding: 13px 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(0, 0, 0, 0.06);
+  color: #1F3D37;
+  text-align: left;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+table tr td {
+  padding: 13px 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  background: #FFFFFF;
+  color: #4B6B65;
+  text-align: left;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  line-height: 20px;
+}
+
+table tr td:last-of-type {
+  border-right: none;
+}
+
+table tr:last-of-type td {
+  border-bottom: transparent;
+}
+
+table tr td.title {
+  background: rgba(0, 0, 0, 0.06);
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  color: #1F3D37;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+table tr td.label {
+  background: rgba(0, 0, 0, 0.06);
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  color: #1F3D37;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+table tr td.title:last-of-type {
+  border-right: none;
+}
+
+table tr td:last-of-type,
+table tr th:last-of-type {
+  border-left: none;
+}
+
+table tr:first-child th:first-child,
+table tr:first-child td:first-child {
+  border-top-left-radius: 16px;
+}
+
+table thead + tbody tr:first-child td:first-child {
+  border-top-left-radius: 0;
+}
+
+table tr:first-child th:last-child,
+table tr:first-child td:last-child {
+  border-top-right-radius: 16px;
+}
+
+table thead + tbody tr:first-child td:last-child {
+  border-top-right-radius: 0;
+}
+
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 16px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 16px;
+}
+
+table tr td b {
+  color: #1F3D37;
+  font-weight: bold;
+}

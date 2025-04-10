@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="028906a6-827f-4e07-8831-3aaba929f813" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2oOxZTnheCC8fSAO7lr892UWcM3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.certificate.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.page-2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.page-3.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.page-4.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.page-5.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.page-6.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.page-7.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.people-on-your-plan.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/felipelima/work/amparo/certificate/js&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/assets/img/png" />
+      <recent name="$PROJECT_DIR$/assets/img/svg" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/img/png" />
+      <recent name="$PROJECT_DIR$/assets/img/svg" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="028906a6-827f-4e07-8831-3aaba929f813" name="Changes" comment="" />
+      <created>1730754478699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730754478699</updated>
+      <workItem from="1730754481330" duration="18382000" />
+      <workItem from="1731416559997" duration="2501000" />
+      <workItem from="1731420727947" duration="7286000" />
+      <workItem from="1731950937508" duration="1201000" />
+      <workItem from="1742314924515" duration="23747000" />
+      <workItem from="1742477999958" duration="1529000" />
+      <workItem from="1742481710208" duration="1077000" />
+      <workItem from="1742493284436" duration="3660000" />
+      <workItem from="1742824343132" duration="3000" />
+      <workItem from="1742910205871" duration="725000" />
+      <workItem from="1743452354607" duration="992000" />
+      <workItem from="1744297733571" duration="2136000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

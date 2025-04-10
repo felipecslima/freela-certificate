@@ -1,0 +1,305 @@
+body {
+
+}
+
+.page {
+  height: 1426px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styles */
+header {
+  width: 100%;
+  background: url("../../assets/img/bg-header.png") no-repeat center;
+  background-size: cover;
+  display: flex;
+}
+
+header .content {
+  display: flex;
+  padding: 48px;
+  gap: 16px;
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+header .content .text {
+  width: 100%;
+}
+
+header .content span {
+  color: #4B6B65;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 26px */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+header .content h1 {
+  color: #3D2B57;
+  font-family: GazpachoBlack, sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%; /* 56px */
+  margin-top: 8px;
+}
+
+header .content p {
+  color: #4B6B65;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 140%;
+  margin-top: 24px;
+  font-weight: 300;
+}
+
+header .content p b {
+  font-weight: 600;
+}
+
+header .logo img {
+  width: 182px;
+}
+
+
+/* Layout container */
+.wrap {
+  padding: 48px;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  flex: 100;
+}
+
+.wrap.gap-32 {
+  gap: 32px;
+}
+
+.wrap.gap-24 {
+  gap: 24px;
+}
+
+.wrap.padding-top-24 {
+  padding-top: 24px;
+}
+
+.wrap.padding-bottom-0 {
+  padding-bottom: 0;
+}
+
+footer .wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer .wrap span {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  color: #96ABA6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 47px;
+}
+
+/* Section styles */
+section h1 {
+  font-family: GazpachoBlack, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 38.4px */
+  color: #1F3D37;
+}
+
+section h2 {
+  font-family: GazpachoBlack, sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 120%;
+  color: #1F3D37;
+}
+
+/* Card styles */
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #F2ECE6;
+  width: 100%;
+  padding: 24px;
+  border-radius: 16px;
+  gap: 16px;
+}
+
+.card.gap-24 {
+  gap: 24px;
+}
+
+.card.p-light {
+  padding: 16px;
+}
+
+.card.column {
+  flex-direction: column;
+  align-items: initial;
+}
+
+.card.white {
+  background-color: #FFF;
+}
+
+.card.gradient {
+  background: url("../../assets/img/png/card-gradients.png") no-repeat center;
+  background-size: cover;
+}
+
+.card.outline {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.card.dark {
+  background-color: #F2ECE6;
+}
+
+.card.outline.white {
+  background-color: #FFF;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.card .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.card .text h2,
+.card .text h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1F3D37;
+}
+
+.card .text h2.medium {
+  font-size: 20px;
+  font-family: Gazpacho, serif;
+}
+
+.card .text h2.large {
+  font-size: 22px;
+  font-family: Gazpacho, serif;
+}
+
+.card .text h3 {
+  color: #1F3D37;
+}
+.card .text p {
+  color: #4B6B65;
+}
+.card .text p,
+.card .text small {
+  color: #4B6B65;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  line-height: 130%; /* 18.2px for p, 15.6px for small */
+  letter-spacing: 0.5px;
+}
+
+.card .text p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.card .text small {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.item.max-376 {
+  max-width: 376px;
+}
+
+.card .spacer-line {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.card .item .item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px
+}
+.card .item .item-text p {
+  color: #4B6B65;
+}
+
+.card .item .item-text h2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+}
+
+.card .item .item-text .img-40 {
+  width: 40px;
+}
+
+/* Text section */
+section.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+}
+
+section.text p {
+  color: #4B6B65;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 130%; /* 18.2px */
+  letter-spacing: 0.5px;
+}
+
+div.space {
+  flex: 80px;
+  height: 80px;
+  min-height: 80px;
+  max-height: 80px;
+  background-color: #F2ECE6;
+}
+
+div.space.purple {
+  background-color: #E9E1F2;
+}
+
+div.space.green {
+  background-color: #A6EDDE;
+}
+
+div.space.orange {
+  background-color: #FCE1BD;
+}
+
+div.space.blue {
+  background-color: #E0E5E5;
+}
+
+.sign {
+  margin-top: 140px;
+}
